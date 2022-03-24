@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ore_0001</key>
+	<dict>
+		<key>name</key>
+		<string>铁矿</string>
+		<key>tool</key>
+		<array>
+			<string>采矿机</string>
+		</array>
+	</dict>
+	<key>ore_0002</key>
+	<dict>
+		<key>name</key>
+		<string>铜矿</string>
+		<key>tool</key>
+		<array>
+			<string>采矿机</string>
+		</array>
+	</dict>
+	<key>ore_0003</key>
+	<dict>
+		<key>name</key>
+		<string>石矿</string>
+		<key>tool</key>
+		<array>
+			<string>采矿机</string>
+		</array>
+	</dict>
+	<key>ore_0004</key>
+	<dict>
+		<key>name</key>
+		<string>煤矿</string>
+		<key>tool</key>
+		<array>
+			<string>采矿机</string>
+		</array>
+	</dict>
+	<key>ore_0005</key>
+	<dict>
+		<key>name</key>
+		<string>硅石</string>
+		<key>tool</key>
+		<array>
+			<string>采矿机</string>
+		</array>
+	</dict>
+	<key>ore_0006</key>
+	<dict>
+		<key>name</key>
+		<string>钛石</string>
+		<key>tool</key>
+		<array>
+			<string>采矿机</string>
+		</array>
+	</dict>
+</dict>
+</plist>

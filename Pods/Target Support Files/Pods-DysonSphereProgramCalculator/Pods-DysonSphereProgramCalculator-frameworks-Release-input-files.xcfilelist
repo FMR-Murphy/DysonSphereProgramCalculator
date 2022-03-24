@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-DysonSphereProgramCalculator/Pods-DysonSphereProgramCalculator-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
 ${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework
+${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework

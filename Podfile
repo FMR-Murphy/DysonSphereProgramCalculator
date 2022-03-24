@@ -9,7 +9,7 @@ target 'DysonSphereProgramCalculator' do
   # Pods for DysonSphereProgramCalculator
   pod 'Masonry'
   pod 'ReactiveObjC'
-  
+  pod 'YYModel'
   
   
   

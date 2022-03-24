@@ -17,6 +17,8 @@
 		0D9AB00827EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */; };
 		0DFCDE0D27EC4B3E005F4519 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */; };
 		0DFCDE1127EC4B4F005F4519 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1027EC4B4F005F4519 /* RootViewController.m */; };
+		0DFCDE1427EC5237005F4519 /* Resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1327EC5237005F4519 /* Resources.plist */; };
+		0DFCDE1827EC6BF6005F4519 /* ElementModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1727EC6BF6005F4519 /* ElementModel.m */; };
 		1C9C494FB4D7483F3BEBF587 /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7540BCBC033CFFA21F17BE5E /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework */; };
 		24C6CE6964BFFD0562B63CF6 /* Pods_DysonSphereProgramCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF75A5B88A4CC8380F35B2F /* Pods_DysonSphereProgramCalculatorTests.framework */; };
 		EE716E73AB3237FBE690BC79 /* Pods_DysonSphereProgramCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4329BA6E2A420C2BCC0C9BB8 /* Pods_DysonSphereProgramCalculator.framework */; };
@@ -59,6 +61,9 @@
 		0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0DFCDE0F27EC4B4F005F4519 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0DFCDE1027EC4B4F005F4519 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0DFCDE1327EC5237005F4519 /* Resources.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources.plist; sourceTree = "<group>"; };
+		0DFCDE1627EC6BF6005F4519 /* ElementModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElementModel.h; sourceTree = "<group>"; };
+		0DFCDE1727EC6BF6005F4519 /* ElementModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementModel.m; sourceTree = "<group>"; };
 		4329BA6E2A420C2BCC0C9BB8 /* Pods_DysonSphereProgramCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DysonSphereProgramCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7540BCBC033CFFA21F17BE5E /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B6C148E25C2870A0F532EE5 /* Pods-DysonSphereProgramCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculatorTests/Pods-DysonSphereProgramCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,10 +133,12 @@
 				0D9AAFE327EB20FA00A8A16E /* SceneDelegate.m */,
 				0DFCDE0E27EC4B45005F4519 /* RootViewController */,
 				0DFCDE0A27EC4B2C005F4519 /* Home */,
+				0DFCDE1527EC63EF005F4519 /* Calculator */,
 				0D9AAFEB27EB20FC00A8A16E /* Assets.xcassets */,
 				0D9AAFED27EB20FC00A8A16E /* LaunchScreen.storyboard */,
 				0D9AAFF027EB20FC00A8A16E /* Info.plist */,
 				0D9AAFF127EB20FC00A8A16E /* main.m */,
+				0DFCDE1227EC5204005F4519 /* Resources */,
 			);
 			path = DysonSphereProgramCalculator;
 			sourceTree = "<group>";
@@ -169,6 +176,23 @@
 				0DFCDE1027EC4B4F005F4519 /* RootViewController.m */,
 			);
 			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		0DFCDE1227EC5204005F4519 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DFCDE1327EC5237005F4519 /* Resources.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0DFCDE1527EC63EF005F4519 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				0DFCDE1627EC6BF6005F4519 /* ElementModel.h */,
+				0DFCDE1727EC6BF6005F4519 /* ElementModel.m */,
+			);
+			path = Calculator;
 			sourceTree = "<group>";
 		};
 		20DE4740552C852041804AEA /* Frameworks */ = {
@@ -304,6 +328,7 @@
 			files = (
 				0D9AAFEF27EB20FC00A8A16E /* LaunchScreen.storyboard in Resources */,
 				0D9AAFEC27EB20FC00A8A16E /* Assets.xcassets in Resources */,
+				0DFCDE1427EC5237005F4519 /* Resources.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +457,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9AAFE127EB20FA00A8A16E /* AppDelegate.m in Sources */,
+				0DFCDE1827EC6BF6005F4519 /* ElementModel.m in Sources */,
 				0D9AAFF227EB20FC00A8A16E /* main.m in Sources */,
 				0D9AAFE427EB20FA00A8A16E /* SceneDelegate.m in Sources */,
 				0DFCDE0D27EC4B3E005F4519 /* HomeViewController.m in Sources */,
