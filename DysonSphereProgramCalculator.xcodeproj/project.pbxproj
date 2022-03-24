@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9AAFE127EB20FA00A8A16E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AAFE027EB20FA00A8A16E /* AppDelegate.m */; };
+		0D9AAFE427EB20FA00A8A16E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AAFE327EB20FA00A8A16E /* SceneDelegate.m */; };
+		0D9AAFEC27EB20FC00A8A16E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9AAFEB27EB20FC00A8A16E /* Assets.xcassets */; };
+		0D9AAFEF27EB20FC00A8A16E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D9AAFED27EB20FC00A8A16E /* LaunchScreen.storyboard */; };
+		0D9AAFF227EB20FC00A8A16E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AAFF127EB20FC00A8A16E /* main.m */; };
+		0D9AAFFC27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AAFFB27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.m */; };
+		0D9AB00627EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AB00527EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m */; };
+		0D9AB00827EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */; };
+		0DFCDE0D27EC4B3E005F4519 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */; };
+		0DFCDE1127EC4B4F005F4519 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1027EC4B4F005F4519 /* RootViewController.m */; };
+		1C9C494FB4D7483F3BEBF587 /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7540BCBC033CFFA21F17BE5E /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework */; };
+		24C6CE6964BFFD0562B63CF6 /* Pods_DysonSphereProgramCalculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF75A5B88A4CC8380F35B2F /* Pods_DysonSphereProgramCalculatorTests.framework */; };
+		EE716E73AB3237FBE690BC79 /* Pods_DysonSphereProgramCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4329BA6E2A420C2BCC0C9BB8 /* Pods_DysonSphereProgramCalculator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9AAFF827EB20FC00A8A16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D9AAFD427EB20FA00A8A16E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9AAFDB27EB20FA00A8A16E;
+			remoteInfo = DysonSphereProgramCalculator;
+		};
+		0D9AB00227EB20FC00A8A16E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D9AAFD427EB20FA00A8A16E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9AAFDB27EB20FA00A8A16E;
+			remoteInfo = DysonSphereProgramCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE8FCB8891C56C8262B0B1C /* Pods-DysonSphereProgramCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculator.release.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculator/Pods-DysonSphereProgramCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		0D9AAFDC27EB20FA00A8A16E /* DysonSphereProgramCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DysonSphereProgramCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9AAFDF27EB20FA00A8A16E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D9AAFE027EB20FA00A8A16E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D9AAFE227EB20FA00A8A16E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0D9AAFE327EB20FA00A8A16E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0D9AAFEB27EB20FC00A8A16E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D9AAFEE27EB20FC00A8A16E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D9AAFF027EB20FC00A8A16E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D9AAFF127EB20FC00A8A16E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D9AAFF727EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DysonSphereProgramCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9AAFFB27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DysonSphereProgramCalculatorTests.m; sourceTree = "<group>"; };
+		0D9AB00127EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DysonSphereProgramCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9AB00527EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DysonSphereProgramCalculatorUITests.m; sourceTree = "<group>"; };
+		0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DysonSphereProgramCalculatorUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0DFCDE0B27EC4B3E005F4519 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0DFCDE0F27EC4B4F005F4519 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0DFCDE1027EC4B4F005F4519 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4329BA6E2A420C2BCC0C9BB8 /* Pods_DysonSphereProgramCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DysonSphereProgramCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7540BCBC033CFFA21F17BE5E /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6C148E25C2870A0F532EE5 /* Pods-DysonSphereProgramCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculatorTests.release.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculatorTests/Pods-DysonSphereProgramCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		95917179D2CC741040CA33D0 /* Pods-DysonSphereProgramCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculator.debug.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculator/Pods-DysonSphereProgramCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		B113430F26042945338FB642 /* Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBC1A93B59883691CAD48316 /* Pods-DysonSphereProgramCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculatorTests.debug.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculatorTests/Pods-DysonSphereProgramCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF75A5B88A4CC8380F35B2F /* Pods_DysonSphereProgramCalculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DysonSphereProgramCalculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7140E1AF4E56DF31AB7D89 /* Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.release.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9AAFD927EB20FA00A8A16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE716E73AB3237FBE690BC79 /* Pods_DysonSphereProgramCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9AAFF427EB20FC00A8A16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C6CE6964BFFD0562B63CF6 /* Pods_DysonSphereProgramCalculatorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9AAFFE27EB20FC00A8A16E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C9C494FB4D7483F3BEBF587 /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9AAFD327EB20FA00A8A16E = {
+			isa = PBXGroup;
+			children = (
+				0D9AAFDE27EB20FA00A8A16E /* DysonSphereProgramCalculator */,
+				0D9AAFFA27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests */,
+				0D9AB00427EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests */,
+				0D9AAFDD27EB20FA00A8A16E /* Products */,
+				C4562548E124E67EC04C3106 /* Pods */,
+				20DE4740552C852041804AEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D9AAFDD27EB20FA00A8A16E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9AAFDC27EB20FA00A8A16E /* DysonSphereProgramCalculator.app */,
+				0D9AAFF727EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.xctest */,
+				0D9AB00127EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D9AAFDE27EB20FA00A8A16E /* DysonSphereProgramCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				0D9AAFDF27EB20FA00A8A16E /* AppDelegate.h */,
+				0D9AAFE027EB20FA00A8A16E /* AppDelegate.m */,
+				0D9AAFE227EB20FA00A8A16E /* SceneDelegate.h */,
+				0D9AAFE327EB20FA00A8A16E /* SceneDelegate.m */,
+				0DFCDE0E27EC4B45005F4519 /* RootViewController */,
+				0DFCDE0A27EC4B2C005F4519 /* Home */,
+				0D9AAFEB27EB20FC00A8A16E /* Assets.xcassets */,
+				0D9AAFED27EB20FC00A8A16E /* LaunchScreen.storyboard */,
+				0D9AAFF027EB20FC00A8A16E /* Info.plist */,
+				0D9AAFF127EB20FC00A8A16E /* main.m */,
+			);
+			path = DysonSphereProgramCalculator;
+			sourceTree = "<group>";
+		};
+		0D9AAFFA27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D9AAFFB27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.m */,
+			);
+			path = DysonSphereProgramCalculatorTests;
+			sourceTree = "<group>";
+		};
+		0D9AB00427EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D9AB00527EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m */,
+				0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */,
+			);
+			path = DysonSphereProgramCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		0DFCDE0A27EC4B2C005F4519 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0DFCDE0B27EC4B3E005F4519 /* HomeViewController.h */,
+				0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0DFCDE0E27EC4B45005F4519 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0DFCDE0F27EC4B4F005F4519 /* RootViewController.h */,
+				0DFCDE1027EC4B4F005F4519 /* RootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		20DE4740552C852041804AEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4329BA6E2A420C2BCC0C9BB8 /* Pods_DysonSphereProgramCalculator.framework */,
+				7540BCBC033CFFA21F17BE5E /* Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests.framework */,
+				DBF75A5B88A4CC8380F35B2F /* Pods_DysonSphereProgramCalculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4562548E124E67EC04C3106 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95917179D2CC741040CA33D0 /* Pods-DysonSphereProgramCalculator.debug.xcconfig */,
+				0BE8FCB8891C56C8262B0B1C /* Pods-DysonSphereProgramCalculator.release.xcconfig */,
+				B113430F26042945338FB642 /* Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.debug.xcconfig */,
+				ED7140E1AF4E56DF31AB7D89 /* Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.release.xcconfig */,
+				DBC1A93B59883691CAD48316 /* Pods-DysonSphereProgramCalculatorTests.debug.xcconfig */,
+				8B6C148E25C2870A0F532EE5 /* Pods-DysonSphereProgramCalculatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D9AAFDB27EB20FA00A8A16E /* DysonSphereProgramCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9AB00B27EB20FC00A8A16E /* Build configuration list for PBXNativeTarget "DysonSphereProgramCalculator" */;
+			buildPhases = (
+				FD911EA3736A84BFD2E3BF41 /* [CP] Check Pods Manifest.lock */,
+				0D9AAFD827EB20FA00A8A16E /* Sources */,
+				0D9AAFD927EB20FA00A8A16E /* Frameworks */,
+				0D9AAFDA27EB20FA00A8A16E /* Resources */,
+				DBA7FE6A0CBB519DA810F97A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DysonSphereProgramCalculator;
+			productName = DysonSphereProgramCalculator;
+			productReference = 0D9AAFDC27EB20FA00A8A16E /* DysonSphereProgramCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D9AAFF627EB20FC00A8A16E /* DysonSphereProgramCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9AB00E27EB20FC00A8A16E /* Build configuration list for PBXNativeTarget "DysonSphereProgramCalculatorTests" */;
+			buildPhases = (
+				80D498DF9062487D7FA33F85 /* [CP] Check Pods Manifest.lock */,
+				0D9AAFF327EB20FC00A8A16E /* Sources */,
+				0D9AAFF427EB20FC00A8A16E /* Frameworks */,
+				0D9AAFF527EB20FC00A8A16E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D9AAFF927EB20FC00A8A16E /* PBXTargetDependency */,
+			);
+			name = DysonSphereProgramCalculatorTests;
+			productName = DysonSphereProgramCalculatorTests;
+			productReference = 0D9AAFF727EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D9AB00027EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D9AB01127EB20FC00A8A16E /* Build configuration list for PBXNativeTarget "DysonSphereProgramCalculatorUITests" */;
+			buildPhases = (
+				10E00E2440633B83EDA7ACA6 /* [CP] Check Pods Manifest.lock */,
+				0D9AAFFD27EB20FC00A8A16E /* Sources */,
+				0D9AAFFE27EB20FC00A8A16E /* Frameworks */,
+				0D9AAFFF27EB20FC00A8A16E /* Resources */,
+				FAA699E311B3F48DE4955AE0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D9AB00327EB20FC00A8A16E /* PBXTargetDependency */,
+			);
+			name = DysonSphereProgramCalculatorUITests;
+			productName = DysonSphereProgramCalculatorUITests;
+			productReference = 0D9AB00127EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9AAFD427EB20FA00A8A16E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0D9AAFDB27EB20FA00A8A16E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0D9AAFF627EB20FC00A8A16E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0D9AAFDB27EB20FA00A8A16E;
+					};
+					0D9AB00027EB20FC00A8A16E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0D9AAFDB27EB20FA00A8A16E;
+					};
+				};
+			};
+			buildConfigurationList = 0D9AAFD727EB20FA00A8A16E /* Build configuration list for PBXProject "DysonSphereProgramCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D9AAFD327EB20FA00A8A16E;
+			productRefGroup = 0D9AAFDD27EB20FA00A8A16E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D9AAFDB27EB20FA00A8A16E /* DysonSphereProgramCalculator */,
+				0D9AAFF627EB20FC00A8A16E /* DysonSphereProgramCalculatorTests */,
+				0D9AB00027EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9AAFDA27EB20FA00A8A16E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9AAFEF27EB20FC00A8A16E /* LaunchScreen.storyboard in Resources */,
+				0D9AAFEC27EB20FC00A8A16E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9AAFF527EB20FC00A8A16E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9AAFFF27EB20FC00A8A16E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10E00E2440633B83EDA7ACA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D498DF9062487D7FA33F85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DysonSphereProgramCalculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA7FE6A0CBB519DA810F97A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DysonSphereProgramCalculator/Pods-DysonSphereProgramCalculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DysonSphereProgramCalculator/Pods-DysonSphereProgramCalculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DysonSphereProgramCalculator/Pods-DysonSphereProgramCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA699E311B3F48DE4955AE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests/Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD911EA3736A84BFD2E3BF41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DysonSphereProgramCalculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9AAFD827EB20FA00A8A16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9AAFE127EB20FA00A8A16E /* AppDelegate.m in Sources */,
+				0D9AAFF227EB20FC00A8A16E /* main.m in Sources */,
+				0D9AAFE427EB20FA00A8A16E /* SceneDelegate.m in Sources */,
+				0DFCDE0D27EC4B3E005F4519 /* HomeViewController.m in Sources */,
+				0DFCDE1127EC4B4F005F4519 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9AAFF327EB20FC00A8A16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9AAFFC27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D9AAFFD27EB20FC00A8A16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9AB00827EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m in Sources */,
+				0D9AB00627EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D9AAFF927EB20FC00A8A16E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D9AAFDB27EB20FA00A8A16E /* DysonSphereProgramCalculator */;
+			targetProxy = 0D9AAFF827EB20FC00A8A16E /* PBXContainerItemProxy */;
+		};
+		0D9AB00327EB20FC00A8A16E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D9AAFDB27EB20FA00A8A16E /* DysonSphereProgramCalculator */;
+			targetProxy = 0D9AB00227EB20FC00A8A16E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D9AAFED27EB20FC00A8A16E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D9AAFEE27EB20FC00A8A16E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D9AB00927EB20FC00A8A16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D9AB00A27EB20FC00A8A16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D9AB00C27EB20FC00A8A16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95917179D2CC741040CA33D0 /* Pods-DysonSphereProgramCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYX47356W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DysonSphereProgramCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DysonSphereProgramCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D9AB00D27EB20FC00A8A16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE8FCB8891C56C8262B0B1C /* Pods-DysonSphereProgramCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYX47356W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DysonSphereProgramCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DysonSphereProgramCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D9AB00F27EB20FC00A8A16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC1A93B59883691CAD48316 /* Pods-DysonSphereProgramCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYX47356W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DysonSphereProgramCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DysonSphereProgramCalculator.app/DysonSphereProgramCalculator";
+			};
+			name = Debug;
+		};
+		0D9AB01027EB20FC00A8A16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6C148E25C2870A0F532EE5 /* Pods-DysonSphereProgramCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYX47356W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DysonSphereProgramCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DysonSphereProgramCalculator.app/DysonSphereProgramCalculator";
+			};
+			name = Release;
+		};
+		0D9AB01227EB20FC00A8A16E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B113430F26042945338FB642 /* Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYX47356W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DysonSphereProgramCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DysonSphereProgramCalculator;
+			};
+			name = Debug;
+		};
+		0D9AB01327EB20FC00A8A16E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED7140E1AF4E56DF31AB7D89 /* Pods-DysonSphereProgramCalculator-DysonSphereProgramCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZYX47356W3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.DysonSphereProgramCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DysonSphereProgramCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9AAFD727EB20FA00A8A16E /* Build configuration list for PBXProject "DysonSphereProgramCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9AB00927EB20FC00A8A16E /* Debug */,
+				0D9AB00A27EB20FC00A8A16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9AB00B27EB20FC00A8A16E /* Build configuration list for PBXNativeTarget "DysonSphereProgramCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9AB00C27EB20FC00A8A16E /* Debug */,
+				0D9AB00D27EB20FC00A8A16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9AB00E27EB20FC00A8A16E /* Build configuration list for PBXNativeTarget "DysonSphereProgramCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9AB00F27EB20FC00A8A16E /* Debug */,
+				0D9AB01027EB20FC00A8A16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D9AB01127EB20FC00A8A16E /* Build configuration list for PBXNativeTarget "DysonSphereProgramCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D9AB01227EB20FC00A8A16E /* Debug */,
+				0D9AB01327EB20FC00A8A16E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D9AAFD427EB20FA00A8A16E /* Project object */;
+}

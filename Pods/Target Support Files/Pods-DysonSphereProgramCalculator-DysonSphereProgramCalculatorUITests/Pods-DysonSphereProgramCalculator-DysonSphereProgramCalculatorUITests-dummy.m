@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_DysonSphereProgramCalculator_DysonSphereProgramCalculatorUITests
+@end
