@@ -15,6 +15,7 @@
 		0D9AAFFC27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AAFFB27EB20FC00A8A16E /* DysonSphereProgramCalculatorTests.m */; };
 		0D9AB00627EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AB00527EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m */; };
 		0D9AB00827EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */; };
+		0DC9090427F06B1500624250 /* FormulaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9090327F06B1400624250 /* FormulaList.plist */; };
 		0DFCDE0D27EC4B3E005F4519 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */; };
 		0DFCDE1127EC4B4F005F4519 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1027EC4B4F005F4519 /* RootViewController.m */; };
 		0DFCDE1427EC5237005F4519 /* Resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1327EC5237005F4519 /* Resources.plist */; };
@@ -57,6 +58,7 @@
 		0D9AB00127EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DysonSphereProgramCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9AB00527EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DysonSphereProgramCalculatorUITests.m; sourceTree = "<group>"; };
 		0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DysonSphereProgramCalculatorUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0DC9090327F06B1400624250 /* FormulaList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FormulaList.plist; sourceTree = "<group>"; };
 		0DFCDE0B27EC4B3E005F4519 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0DFCDE0F27EC4B4F005F4519 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				0DFCDE1327EC5237005F4519 /* Resources.plist */,
+				0DC9090327F06B1400624250 /* FormulaList.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9AAFEF27EB20FC00A8A16E /* LaunchScreen.storyboard in Resources */,
+				0DC9090427F06B1500624250 /* FormulaList.plist in Resources */,
 				0D9AAFEC27EB20FC00A8A16E /* Assets.xcassets in Resources */,
 				0DFCDE1427EC5237005F4519 /* Resources.plist in Resources */,
 			);
