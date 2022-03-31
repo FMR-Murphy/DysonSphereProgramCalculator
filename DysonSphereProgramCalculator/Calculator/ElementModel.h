@@ -32,6 +32,7 @@
  */
 
 #import <Foundation/Foundation.h>
+#import <YYModel/YYModel.h>
 NS_ASSUME_NONNULL_BEGIN
 
 // 物品id
@@ -40,6 +41,8 @@ typedef NSString * ElementId;
 typedef NSString * FormulaId;
 // 原矿，矿物采集公式中，采集产物的通用id
 static NSString *const RawOreId = @"RawOre";
+
+@class ElementModel;
 
 /// 原料 | 产物
 @interface IngredientModel : NSObject
@@ -53,11 +56,11 @@ static NSString *const RawOreId = @"RawOre";
 
 
 /// 生产公式
-@interface FormulaModel : NSObject
+@interface FormulaModel : NSObject <YYModel>
 
 @property (nonatomic) FormulaId formulaId;
 /// 生产工具
-@property (nonatomic) NSArray<ElementId> * tool;
+@property (nonatomic) NSArray<ElementModel *> * tool;
 /// 当前使用的工具index，默认0
 @property (nonatomic) NSUInteger currToolIndex;
 /// 配方名
@@ -66,15 +69,22 @@ static NSString *const RawOreId = @"RawOre";
 @property (nonatomic) NSArray<IngredientModel *> * ingredients;
 /// 产出
 @property (nonatomic) NSArray<IngredientModel *> * products;
-
 /// 需要时间(秒)
 @property (nonatomic) NSUInteger duration;
-/// 产出数量
-@property (nonatomic) NSUInteger number;
+
+// 本地计算
+/// 产量 / min
+@property (nonatomic, readonly) float yieldForMin;
+/// 目标产物
+@property (nonatomic) ElementId targetProduct;
+/// 目标产量 / min
+@property (nonatomic) float targetNumber;
+/// 需要工具数量
+@property (nonatomic) float toolNumber;
 
 @end
 
-// 组件|建筑 模型
+/// 组件|建筑 模型
 @interface ElementModel : NSObject
 
 @property (nonatomic) ElementId eleId;
@@ -88,10 +98,10 @@ static NSString *const RawOreId = @"RawOre";
 @property (nonatomic) NSUInteger currFormulaIndex;
 
 // 建筑属性
-/// 耗电
-@property (nonatomic) float power;
-/// 待机耗电
-@property (nonatomic) float standbyPower;
+/// 耗电   kw
+@property (nonatomic) float workConsumption;
+/// 待机耗电  kw
+@property (nonatomic) float idleConsumption;
 /// 效率 制作台属性
 @property (nonatomic) float efficiency;
 

@@ -16,6 +16,9 @@
 		0D9AB00627EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AB00527EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m */; };
 		0D9AB00827EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */; };
 		0DC9090427F06B1500624250 /* FormulaList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DC9090327F06B1400624250 /* FormulaList.plist */; };
+		0DC9090A27F4396F00624250 /* CalculatorViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9090927F4396F00624250 /* CalculatorViewModel.m */; };
+		0DC9090E27F5F0FD00624250 /* SelectListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9090D27F5F0FD00624250 /* SelectListViewController.m */; };
+		0DC9091227F5F50C00624250 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC9091127F5F50C00624250 /* ResultViewController.m */; };
 		0DFCDE0D27EC4B3E005F4519 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */; };
 		0DFCDE1127EC4B4F005F4519 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1027EC4B4F005F4519 /* RootViewController.m */; };
 		0DFCDE1427EC5237005F4519 /* Resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DFCDE1327EC5237005F4519 /* Resources.plist */; };
@@ -59,6 +62,12 @@
 		0D9AB00527EB20FC00A8A16E /* DysonSphereProgramCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DysonSphereProgramCalculatorUITests.m; sourceTree = "<group>"; };
 		0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DysonSphereProgramCalculatorUITestsLaunchTests.m; sourceTree = "<group>"; };
 		0DC9090327F06B1400624250 /* FormulaList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FormulaList.plist; sourceTree = "<group>"; };
+		0DC9090827F4396F00624250 /* CalculatorViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewModel.h; sourceTree = "<group>"; };
+		0DC9090927F4396F00624250 /* CalculatorViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewModel.m; sourceTree = "<group>"; };
+		0DC9090C27F5F0FD00624250 /* SelectListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectListViewController.h; sourceTree = "<group>"; };
+		0DC9090D27F5F0FD00624250 /* SelectListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectListViewController.m; sourceTree = "<group>"; };
+		0DC9091027F5F50C00624250 /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		0DC9091127F5F50C00624250 /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 		0DFCDE0B27EC4B3E005F4519 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		0DFCDE0C27EC4B3E005F4519 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		0DFCDE0F27EC4B4F005F4519 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -136,6 +145,8 @@
 				0DFCDE0E27EC4B45005F4519 /* RootViewController */,
 				0DFCDE0A27EC4B2C005F4519 /* Home */,
 				0DFCDE1527EC63EF005F4519 /* Calculator */,
+				0DC9090B27F5F0AA00624250 /* SelectList */,
+				0DC9090F27F5F4F900624250 /* ResultList */,
 				0D9AAFEB27EB20FC00A8A16E /* Assets.xcassets */,
 				0D9AAFED27EB20FC00A8A16E /* LaunchScreen.storyboard */,
 				0D9AAFF027EB20FC00A8A16E /* Info.plist */,
@@ -160,6 +171,24 @@
 				0D9AB00727EB20FC00A8A16E /* DysonSphereProgramCalculatorUITestsLaunchTests.m */,
 			);
 			path = DysonSphereProgramCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		0DC9090B27F5F0AA00624250 /* SelectList */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9090C27F5F0FD00624250 /* SelectListViewController.h */,
+				0DC9090D27F5F0FD00624250 /* SelectListViewController.m */,
+			);
+			path = SelectList;
+			sourceTree = "<group>";
+		};
+		0DC9090F27F5F4F900624250 /* ResultList */ = {
+			isa = PBXGroup;
+			children = (
+				0DC9091027F5F50C00624250 /* ResultViewController.h */,
+				0DC9091127F5F50C00624250 /* ResultViewController.m */,
+			);
+			path = ResultList;
 			sourceTree = "<group>";
 		};
 		0DFCDE0A27EC4B2C005F4519 /* Home */ = {
@@ -194,6 +223,8 @@
 			children = (
 				0DFCDE1627EC6BF6005F4519 /* ElementModel.h */,
 				0DFCDE1727EC6BF6005F4519 /* ElementModel.m */,
+				0DC9090827F4396F00624250 /* CalculatorViewModel.h */,
+				0DC9090927F4396F00624250 /* CalculatorViewModel.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -460,12 +491,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC9090E27F5F0FD00624250 /* SelectListViewController.m in Sources */,
 				0D9AAFE127EB20FA00A8A16E /* AppDelegate.m in Sources */,
 				0DFCDE1827EC6BF6005F4519 /* ElementModel.m in Sources */,
 				0D9AAFF227EB20FC00A8A16E /* main.m in Sources */,
 				0D9AAFE427EB20FA00A8A16E /* SceneDelegate.m in Sources */,
 				0DFCDE0D27EC4B3E005F4519 /* HomeViewController.m in Sources */,
+				0DC9090A27F4396F00624250 /* CalculatorViewModel.m in Sources */,
 				0DFCDE1127EC4B4F005F4519 /* RootViewController.m in Sources */,
+				0DC9091227F5F50C00624250 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

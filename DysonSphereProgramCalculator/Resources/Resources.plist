@@ -16,9 +16,9 @@
 		</array>
 		<key>currToolIndex</key>
 		<integer>0</integer>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -37,9 +37,9 @@
 		</array>
 		<key>currToolIndex</key>
 		<integer>0</integer>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -58,9 +58,9 @@
 		</array>
 		<key>currToolIndex</key>
 		<integer>0</integer>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -81,9 +81,9 @@
 		</array>
 		<key>currToolIndex</key>
 		<integer>0</integer>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -102,9 +102,9 @@
 		</array>
 		<key>currToolIndex</key>
 		<integer>0</integer>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -117,7 +117,7 @@
 		<string>钛石</string>
 		<key>iconName</key>
 		<string>icon_TitaniumOre</string>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
 		<key>formulas</key>
 		<array>
@@ -125,7 +125,7 @@
 		</array>
 		<key>currToolIndex</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -140,9 +140,9 @@
 		<string>icon_Log</string>
 		<key>formulas</key>
 		<array/>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -157,9 +157,9 @@
 		<string>icon_PlantFuel</string>
 		<key>formulas</key>
 		<array/>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -176,9 +176,9 @@
 		<array>
 			<string>formula_0002</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -195,9 +195,9 @@
 		<array>
 			<string>formula_0005</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -215,9 +215,9 @@
 			<string>formula_0002</string>
 			<string>formula_0021</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -238,9 +238,9 @@
 			<string>formula_0007</string>
 			<string>formula_0008</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -258,9 +258,9 @@
 			<string>formula_0003</string>
 			<string>formula_0009</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -277,9 +277,9 @@
 		<array>
 			<string>formula_0001</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -296,9 +296,9 @@
 		<array>
 			<string>formula_0001</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -315,9 +315,9 @@
 		<array>
 			<string>formula_0001</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -334,9 +334,9 @@
 		<array>
 			<string>formula_0001</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -353,9 +353,9 @@
 		<array/>
 		<key>New item</key>
 		<string>formula_0001</string>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -372,9 +372,9 @@
 		<array/>
 		<key>New item</key>
 		<string>formula_0001</string>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -391,9 +391,9 @@
 		<array>
 			<string>formula_0001</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -410,9 +410,9 @@
 		<array>
 			<string>formula_0010</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -429,9 +429,9 @@
 		<array>
 			<string>formula_0011</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -448,9 +448,9 @@
 		<array>
 			<string>formula_0012</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -467,9 +467,9 @@
 		<array>
 			<string>formula_0013</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -486,9 +486,9 @@
 		<array>
 			<string>formula_0014</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -506,9 +506,9 @@
 			<string>formula_0008</string>
 			<string>formula_0015</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -525,9 +525,9 @@
 		<array>
 			<string>formula_0006</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -544,9 +544,9 @@
 		<array>
 			<string>formula_0016</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -563,9 +563,9 @@
 		<array>
 			<string>formula_0017</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -583,9 +583,9 @@
 			<string>formula_0018</string>
 			<string>formula_0019</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -602,9 +602,9 @@
 		<array>
 			<string>formula_0020</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -621,9 +621,9 @@
 		<array>
 			<string>formula_0022</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -641,9 +641,9 @@
 			<string>formula_0023</string>
 			<string>formula_0024</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -660,9 +660,9 @@
 		<array>
 			<string>formula_0025</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -679,9 +679,9 @@
 		<array>
 			<string>formula_0026</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -698,9 +698,9 @@
 		<array>
 			<string>formula_0027</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -717,9 +717,9 @@
 		<array>
 			<string>formula_0028</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -736,9 +736,9 @@
 		<array>
 			<string>formula_0029</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -755,9 +755,9 @@
 		<array>
 			<string>formula_0030</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -775,9 +775,9 @@
 			<string>formula_0007</string>
 			<string>formula_0031</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -795,9 +795,9 @@
 			<string>formula_0032</string>
 			<string>formula_0033</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -814,9 +814,9 @@
 		<array>
 			<string>formula_0034</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -833,9 +833,9 @@
 		<array>
 			<string>formula_0035</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -852,9 +852,9 @@
 		<array>
 			<string>formula_0036</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -871,9 +871,9 @@
 		<array>
 			<string>formula_0037</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -890,9 +890,9 @@
 		<array>
 			<string>formula_0038</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -910,9 +910,9 @@
 			<string>formula_0039</string>
 			<string>formula_0040</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -927,9 +927,9 @@
 		<string>icon_TitaniumCrystal</string>
 		<key>formulas</key>
 		<array/>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -946,9 +946,9 @@
 		<array>
 			<string>formula_0042</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -963,9 +963,9 @@
 		<string>icon_CriticalPhoton</string>
 		<key>formulas</key>
 		<array/>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -983,9 +983,9 @@
 			<string>formula_0043</string>
 			<string>formula_0044</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1000,9 +1000,9 @@
 		<string>icon_StrangeMatter</string>
 		<key>formulas</key>
 		<array/>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1019,9 +1019,9 @@
 		<array>
 			<string>formula_0045</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1038,9 +1038,9 @@
 		<array>
 			<string>formula_0046</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1057,9 +1057,9 @@
 		<array>
 			<string>formula_0047</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1076,9 +1076,9 @@
 		<array>
 			<string>formula_0048</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1095,9 +1095,9 @@
 		<array>
 			<string>formula_0049</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1114,9 +1114,9 @@
 		<array>
 			<string>formula_0050</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1133,9 +1133,9 @@
 		<array>
 			<string>formula_0051</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1152,9 +1152,9 @@
 		<array>
 			<string>formula_0052</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1171,9 +1171,9 @@
 		<array>
 			<string>formula_0053</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1190,9 +1190,9 @@
 		<array>
 			<string>formula_0054</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1209,9 +1209,9 @@
 		<array>
 			<string>formula_0055</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1228,9 +1228,9 @@
 		<array>
 			<string>formula_0056</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1247,9 +1247,9 @@
 		<array>
 			<string>formula_0057</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1266,9 +1266,9 @@
 		<array>
 			<string>formula_0058</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1285,9 +1285,9 @@
 		<array>
 			<string>formula_0059</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1304,9 +1304,9 @@
 		<array>
 			<string>formula_0060</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1324,9 +1324,9 @@
 			<string>formula_0061</string>
 			<string>formula_0062</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1343,9 +1343,9 @@
 		<array>
 			<string>formula_0063</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1362,9 +1362,9 @@
 		<array>
 			<string>formula_0064</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1381,9 +1381,9 @@
 		<array>
 			<string>formula_0065</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1400,9 +1400,9 @@
 		<array>
 			<string>formula_0066</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1419,9 +1419,9 @@
 		<array>
 			<string>formula_0067</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1438,9 +1438,9 @@
 		<array>
 			<string>formula_0068</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1457,9 +1457,9 @@
 		<array>
 			<string>formula_0069</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1476,9 +1476,9 @@
 		<array>
 			<string>formula_0070</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1495,9 +1495,9 @@
 		<array>
 			<string>formula_0071</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1514,9 +1514,9 @@
 		<array>
 			<string>formula_0072</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1531,9 +1531,9 @@
 		<string>icon_GravityMatrix</string>
 		<key>formulas</key>
 		<array/>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1550,9 +1550,9 @@
 		<array>
 			<string>formula_0074</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1569,9 +1569,9 @@
 		<array>
 			<string>formula_0075</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1588,10 +1588,10 @@
 		<array>
 			<string>formula_0076</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>4800</integer>
+		<key>idleConsumption</key>
+		<integer>90</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
 	</dict>
@@ -1607,10 +1607,10 @@
 		<array>
 			<string>formula_0077</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>idleConsumption</key>
+		<integer>720</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
 	</dict>
@@ -1626,9 +1626,9 @@
 		<array>
 			<string>formula_0078</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1645,9 +1645,9 @@
 		<array>
 			<string>formula_0079</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1664,9 +1664,9 @@
 		<array>
 			<string>formula_0080</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1683,9 +1683,9 @@
 		<array>
 			<string>formula_0081</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1702,9 +1702,9 @@
 		<array>
 			<string>formula_0082</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1721,9 +1721,9 @@
 		<array>
 			<string>formula_0083</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1737,10 +1737,12 @@
 		<key>iconName</key>
 		<string>icon_Accumulator(full)</string>
 		<key>formulas</key>
-		<array/>
-		<key>power</key>
+		<array>
+			<string>formula_0119</string>
+		</array>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1757,12 +1759,12 @@
 		<array>
 			<string>formula_0084</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>420</integer>
+		<key>idleConsumption</key>
+		<integer>24</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0101</key>
 	<dict>
@@ -1776,12 +1778,12 @@
 		<array>
 			<string>formula_0085</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>2940</integer>
+		<key>idleConsumption</key>
+		<integer>168</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>2</integer>
 	</dict>
 	<key>building_0102</key>
 	<dict>
@@ -1795,12 +1797,12 @@
 		<array>
 			<string>formula_0086</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>300</integer>
+		<key>idleConsumption</key>
+		<integer>12</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0103</key>
 	<dict>
@@ -1814,12 +1816,12 @@
 		<array>
 			<string>formula_0087</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0200</key>
 	<dict>
@@ -1833,9 +1835,9 @@
 		<array>
 			<string>formula_0088</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1852,9 +1854,9 @@
 		<array>
 			<string>formula_0089</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1871,9 +1873,9 @@
 		<array>
 			<string>formula_0090</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1890,9 +1892,9 @@
 		<array>
 			<string>formula_0091</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1909,9 +1911,9 @@
 		<array>
 			<string>formula_0092</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1928,9 +1930,9 @@
 		<array>
 			<string>formula_0093</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1947,9 +1949,9 @@
 		<array>
 			<string>formula_0094</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1966,9 +1968,9 @@
 		<array>
 			<string>formula_0095</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -1985,9 +1987,9 @@
 		<array>
 			<string>formula_0096</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2004,9 +2006,9 @@
 		<array>
 			<string>formula_0097</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2023,9 +2025,9 @@
 		<array>
 			<string>formula_0098</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2042,9 +2044,9 @@
 		<array>
 			<string>formula_0099</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2061,12 +2063,12 @@
 		<array>
 			<string>formula_0100</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>360</integer>
+		<key>idleConsumption</key>
+		<integer>12</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0401</key>
 	<dict>
@@ -2080,12 +2082,12 @@
 		<array>
 			<string>formula_0101</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>1440</integer>
+		<key>idleConsumption</key>
+		<integer>48</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>2</integer>
 	</dict>
 	<key>building_0402</key>
 	<dict>
@@ -2099,12 +2101,12 @@
 		<array>
 			<string>formula_0102</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>270</integer>
+		<key>idleConsumption</key>
+		<integer>12</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<real>0.75</real>
 	</dict>
 	<key>building_0403</key>
 	<dict>
@@ -2118,12 +2120,12 @@
 		<array>
 			<string>formula_0103</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>540</integer>
+		<key>idleConsumption</key>
+		<integer>18</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0404</key>
 	<dict>
@@ -2137,12 +2139,12 @@
 		<array>
 			<string>formula_0104</string>
 		</array>
-		<key>power</key>
-		<integer>0</integer>
-		<key>standbyPower</key>
-		<integer>0</integer>
+		<key>workConsumption</key>
+		<integer>1080</integer>
+		<key>idleConsumption</key>
+		<integer>24</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<real>1.5</real>
 	</dict>
 	<key>building_0405</key>
 	<dict>
@@ -2156,9 +2158,9 @@
 		<array>
 			<string>formula_0105</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2175,12 +2177,12 @@
 		<array>
 			<string>formula_0106</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0407</key>
 	<dict>
@@ -2194,12 +2196,12 @@
 		<array>
 			<string>formula_0107</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0408</key>
 	<dict>
@@ -2213,12 +2215,12 @@
 		<array>
 			<string>formula_0108</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0409</key>
 	<dict>
@@ -2232,12 +2234,12 @@
 		<array>
 			<string>formula_0109</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0410</key>
 	<dict>
@@ -2251,9 +2253,9 @@
 		<array>
 			<string>formula_0110</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2270,9 +2272,9 @@
 		<array>
 			<string>formula_0111</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2289,12 +2291,12 @@
 		<array>
 			<string>formula_0112</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>8</integer>
 	</dict>
 	<key>building_0413</key>
 	<dict>
@@ -2308,12 +2310,12 @@
 		<array>
 			<string>formula_0113</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0500</key>
 	<dict>
@@ -2327,12 +2329,12 @@
 		<array>
 			<string>formula_0114</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0600</key>
 	<dict>
@@ -2346,12 +2348,12 @@
 		<array>
 			<string>formula_0115</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0601</key>
 	<dict>
@@ -2365,12 +2367,12 @@
 		<array>
 			<string>formula_0116</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 	<key>building_0602</key>
 	<dict>
@@ -2384,9 +2386,9 @@
 		<array>
 			<string>formula_0117</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
 		<integer>0</integer>
@@ -2403,12 +2405,12 @@
 		<array>
 			<string>formula_0118</string>
 		</array>
-		<key>power</key>
+		<key>workConsumption</key>
 		<integer>0</integer>
-		<key>standbyPower</key>
+		<key>idleConsumption</key>
 		<integer>0</integer>
 		<key>efficiency</key>
-		<integer>0</integer>
+		<integer>1</integer>
 	</dict>
 </dict>
 </plist>

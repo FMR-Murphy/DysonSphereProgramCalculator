@@ -10,8 +10,42 @@
 		<string>矿脉采集</string>
 		<key>tool</key>
 		<array>
-			<string>building_0100</string>
-			<string>building_0101</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0100</string>
+				<key>name</key>
+				<string>采矿机</string>
+				<key>iconName</key>
+				<string>icon_MiningMachine</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0084</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>420</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0101</string>
+				<key>name</key>
+				<string>大型采矿机</string>
+				<key>iconName</key>
+				<string>icon_AdvancedMiningMachine</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0085</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>2940</integer>
+				<key>idleConsumption</key>
+				<integer>168</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>products</key>
 		<array>
@@ -33,7 +67,24 @@
 		<string>液体采集</string>
 		<key>tool</key>
 		<array>
-			<string>building_0102</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0102</string>
+				<key>name</key>
+				<string>抽水站</string>
+				<key>iconName</key>
+				<string>icon_WaterPump</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0086</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>300</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>products</key>
 		<array>
@@ -55,7 +106,24 @@
 		<string>轨道采集器（气巨）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0412</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0412</string>
+				<key>name</key>
+				<string>轨道采集器</string>
+				<key>iconName</key>
+				<string>icon_OrbifalCollector</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0112</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>8</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array/>
@@ -85,7 +153,24 @@
 		<string>轨道采集器（冰巨）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0412</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0412</string>
+				<key>name</key>
+				<string>轨道采集器</string>
+				<key>iconName</key>
+				<string>icon_OrbifalCollector</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0112</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>8</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array/>
@@ -115,7 +200,24 @@
 		<string>原油采集</string>
 		<key>tool</key>
 		<array>
-			<string>building_0103</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0103</string>
+				<key>name</key>
+				<string>原油萃取站</string>
+				<key>iconName</key>
+				<string>icon_OilExtractor</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0087</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array/>
@@ -139,7 +241,24 @@
 		<string>原油精炼</string>
 		<key>tool</key>
 		<array>
-			<string>building_0406</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0406</string>
+				<key>name</key>
+				<string>原油精炼厂</string>
+				<key>iconName</key>
+				<string>icon_OilRefinery</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0106</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -176,7 +295,24 @@
 		<string>可燃冰分解</string>
 		<key>tool</key>
 		<array>
-			<string>building_0407</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0407</string>
+				<key>name</key>
+				<string>化工厂</string>
+				<key>iconName</key>
+				<string>icon_ChemicalPlant</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0107</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -213,7 +349,24 @@
 		<string>X射线裂解</string>
 		<key>tool</key>
 		<array>
-			<string>building_0406</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0406</string>
+				<key>name</key>
+				<string>原油精炼厂</string>
+				<key>iconName</key>
+				<string>icon_OilRefinery</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0106</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -256,7 +409,24 @@
 		<string>重氢（对撞机）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0409</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0409</string>
+				<key>name</key>
+				<string>微型粒子对撞机</string>
+				<key>iconName</key>
+				<string>icon_MiniatureParticleCollider</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0109</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -511,9 +681,60 @@
 		<string>磁线圈</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -582,9 +803,60 @@
 		<string>晶格硅（高效）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -659,7 +931,24 @@
 		<string>硫酸</string>
 		<key>tool</key>
 		<array>
-			<string>building_0407</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0407</string>
+				<key>name</key>
+				<string>化工厂</string>
+				<key>iconName</key>
+				<string>icon_ChemicalPlant</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0107</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -798,7 +1087,24 @@
 		<string>塑料</string>
 		<key>tool</key>
 		<array>
-			<string>building_0407</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0407</string>
+				<key>name</key>
+				<string>化工厂</string>
+				<key>iconName</key>
+				<string>icon_ChemicalPlant</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0107</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -867,9 +1173,60 @@
 		<string>电路板</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -906,9 +1263,60 @@
 		<string>棱镜</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -939,9 +1347,60 @@
 		<string>电动机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -984,9 +1443,60 @@
 		<string>微晶元件</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1023,7 +1533,24 @@
 		<string>石墨烯</string>
 		<key>tool</key>
 		<array>
-			<string>building_0407</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0407</string>
+				<key>name</key>
+				<string>化工厂</string>
+				<key>iconName</key>
+				<string>icon_ChemicalPlant</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0107</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1060,9 +1587,60 @@
 		<string>卡西米尔晶体</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1105,9 +1683,60 @@
 		<string>卡西米尔晶体（高效）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1150,9 +1779,60 @@
 		<string>齿轮</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1183,9 +1863,60 @@
 		<string>电浆激发器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1222,9 +1953,60 @@
 		<string>光子合并器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1261,9 +2043,60 @@
 		<string>电磁涡轮</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1300,9 +2133,60 @@
 		<string>处理器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1339,7 +2223,24 @@
 		<string>碳纳米管</string>
 		<key>tool</key>
 		<array>
-			<string>building_0407</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0407</string>
+				<key>name</key>
+				<string>化工厂</string>
+				<key>iconName</key>
+				<string>icon_ChemicalPlant</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0107</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1376,7 +2277,24 @@
 		<string>碳纳米管（高效）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0407</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0407</string>
+				<key>name</key>
+				<string>化工厂</string>
+				<key>iconName</key>
+				<string>icon_ChemicalPlant</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0107</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1407,9 +2325,60 @@
 		<string>钛晶石</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1484,9 +2453,60 @@
 		<string>粒子容器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1529,9 +2549,60 @@
 		<string>粒子容器（高效）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1568,9 +2639,60 @@
 		<string>超级磁场环</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1613,9 +2735,60 @@
 		<string>引力透镜</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1652,9 +2825,60 @@
 		<string>钛化玻璃</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1697,9 +2921,60 @@
 		<string>湮灭约束球</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1736,9 +3011,60 @@
 		<string>位面过滤器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1775,9 +3101,60 @@
 		<string>量子芯片</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1814,9 +3191,60 @@
 		<string>粒子宽带</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1859,9 +3287,60 @@
 		<string>框架材料</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1904,9 +3383,60 @@
 		<string>戴森球组件</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1949,7 +3479,24 @@
 		<string>反物质</string>
 		<key>tool</key>
 		<array>
-			<string>building_0409</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0409</string>
+				<key>name</key>
+				<string>微型粒子对撞机</string>
+				<key>iconName</key>
+				<string>icon_MiniatureParticleCollider</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0109</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1986,9 +3533,60 @@
 		<string>增产剂Mk.I</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2019,9 +3617,60 @@
 		<string>增产剂Mk.II</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2058,9 +3707,60 @@
 		<string>增产剂Mk.III</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2097,9 +3797,60 @@
 		<string>液氢燃料棒</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2136,9 +3887,60 @@
 		<string>氘核燃料棒</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2181,9 +3983,60 @@
 		<string>反物质燃料棒</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2232,9 +4085,60 @@
 		<string>空间翘曲器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2265,9 +4169,60 @@
 		<string>空间翘曲器（高效）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2298,9 +4253,60 @@
 		<string>推进器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2337,9 +4343,60 @@
 		<string>加力推进器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2376,9 +4433,60 @@
 		<string>物流运输机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2421,9 +4529,60 @@
 		<string>星际物流运输机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2466,9 +4625,60 @@
 		<string>小型运载火箭</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2511,9 +4721,60 @@
 		<string>太阳帆</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2550,9 +4811,7 @@
 		<string>电磁矩阵</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<string>building_0500</string>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2589,9 +4848,7 @@
 		<string>能量矩阵</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<string>building_0500</string>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2628,9 +4885,7 @@
 		<string>结构矩阵</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<string>building_0500</string>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2667,9 +4922,7 @@
 		<string>信息矩阵</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<string>building_0500</string>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2706,9 +4959,7 @@
 		<string>引力矩阵</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<string>building_0500</string>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2745,9 +4996,7 @@
 		<string>宇宙矩阵</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<string>building_0500</string>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2808,9 +5057,60 @@
 		<string>电力感应塔</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2847,9 +5147,60 @@
 		<string>无线输电塔</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2886,9 +5237,60 @@
 		<string>卫星配电站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2931,9 +5333,60 @@
 		<string>风力涡轮机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2976,9 +5429,60 @@
 		<string>火力发电厂</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3027,9 +5531,60 @@
 		<string>太阳能板</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3072,9 +5627,60 @@
 		<string>地热发电站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3123,9 +5729,60 @@
 		<string>微型聚变发电站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3174,9 +5831,60 @@
 		<string>蓄电器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3219,9 +5927,60 @@
 		<string>采矿机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3270,9 +6029,60 @@
 		<string>大型采矿机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3327,9 +6137,60 @@
 		<string>抽水站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3378,9 +6239,60 @@
 		<string>原油萃取站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3429,9 +6341,60 @@
 		<string>传送带</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3468,9 +6431,60 @@
 		<string>高速传送带</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3507,9 +6521,60 @@
 		<string>极速传送带</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3552,9 +6617,60 @@
 		<string>分拣器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3591,9 +6707,60 @@
 		<string>高速分拣器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3630,9 +6797,60 @@
 		<string>极速分拣器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3669,9 +6887,60 @@
 		<string>四向分流器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3714,9 +6983,60 @@
 		<string>自动集装机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3765,9 +7085,60 @@
 		<string>流速监测器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3816,9 +7187,60 @@
 		<string>小型储物仓</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3855,9 +7277,60 @@
 		<string>大型储物仓</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3894,9 +7367,60 @@
 		<string>储液罐</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3939,9 +7463,60 @@
 		<string>电弧熔炉</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -3990,9 +7565,60 @@
 		<string>位面熔炉</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4041,9 +7667,60 @@
 		<string>制造台Mk.I</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4086,9 +7763,60 @@
 		<string>制造台Mk.II</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4131,9 +7859,60 @@
 		<string>制造台Mk.III</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4176,9 +7955,60 @@
 		<string>喷涂机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4227,9 +8057,60 @@
 		<string>原油精炼厂</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4262,7 +8143,24 @@
 		<array>
 			<dict>
 				<key>elementId</key>
-				<string>building_0406</string>
+				<dict>
+					<key>eleId</key>
+					<string>building_0406</string>
+					<key>name</key>
+					<string>原油精炼厂</string>
+					<key>iconName</key>
+					<string>icon_OilRefinery</string>
+					<key>formulas</key>
+					<array>
+						<string>formula_0106</string>
+					</array>
+					<key>workConsumption</key>
+					<integer>0</integer>
+					<key>idleConsumption</key>
+					<integer>0</integer>
+					<key>efficiency</key>
+					<integer>1</integer>
+				</dict>
 				<key>number</key>
 				<string>1</string>
 			</dict>
@@ -4278,9 +8176,60 @@
 		<string>化工厂</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4329,9 +8278,60 @@
 		<string>分馏塔</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4380,9 +8380,60 @@
 		<string>微型粒子对撞机</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4437,9 +8488,60 @@
 		<string>行星内物流运输站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4488,9 +8590,60 @@
 		<string>星际物流运输站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4533,9 +8686,60 @@
 		<string>轨道采集器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4584,9 +8788,60 @@
 		<string>能量枢纽</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4635,9 +8890,60 @@
 		<string>矩阵研究站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4686,9 +8992,60 @@
 		<string>电磁轨道弹射器</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4737,9 +9094,60 @@
 		<string>射线接收站</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4794,9 +9202,60 @@
 		<string>垂直发射井</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4845,9 +9304,60 @@
 		<string>人造恒星</string>
 		<key>tool</key>
 		<array>
-			<string>building_0402</string>
-			<string>building_0403</string>
-			<string>building_0404</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0402</string>
+				<key>name</key>
+				<string>制造台Mk.I</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.I</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0102</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>270</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<real>0.75</real>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0403</string>
+				<key>name</key>
+				<string>制造台Mk.II</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.II</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0103</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>540</integer>
+				<key>idleConsumption</key>
+				<integer>18</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0404</string>
+				<key>name</key>
+				<string>制造台Mk.III</string>
+				<key>iconName</key>
+				<string>icon_AssemblingMachine-MK.III</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0104</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1080</integer>
+				<key>idleConsumption</key>
+				<integer>24</integer>
+				<key>efficiency</key>
+				<real>1.5</real>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -4887,6 +9397,54 @@
 		</array>
 		<key>duration</key>
 		<integer>30</integer>
+	</dict>
+	<key>formula_0119</key>
+	<dict>
+		<key>formulaId</key>
+		<string>formula_0118</string>
+		<key>name</key>
+		<string>蓄电器充电（能量枢纽）</string>
+		<key>tool</key>
+		<array>
+			<dict>
+				<key>eleId</key>
+				<string>building_0413</string>
+				<key>name</key>
+				<string>能量枢纽</string>
+				<key>iconName</key>
+				<string>icon_EnergyExchanger</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0113</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>0</integer>
+				<key>idleConsumption</key>
+				<integer>0</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>ingredients</key>
+		<array>
+			<dict>
+				<key>elementId</key>
+				<string>building_0009</string>
+				<key>number</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>products</key>
+		<array>
+			<dict>
+				<key>elementId</key>
+				<string>building_0010</string>
+				<key>number</key>
+				<string>1</string>
+			</dict>
+		</array>
+		<key>duration</key>
+		<integer>1</integer>
 	</dict>
 </dict>
 </plist>
