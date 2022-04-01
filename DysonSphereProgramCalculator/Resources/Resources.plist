@@ -51,7 +51,7 @@
 		<key>name</key>
 		<string>石矿</string>
 		<key>iconName</key>
-		<string>icon_StoneBrick</string>
+		<string>icon_StoneOre</string>
 		<key>formulas</key>
 		<array>
 			<string>formula_0001</string>
@@ -926,7 +926,9 @@
 		<key>iconName</key>
 		<string>icon_TitaniumCrystal</string>
 		<key>formulas</key>
-		<array/>
+		<array>
+			<string>formula_0041</string>
+		</array>
 		<key>workConsumption</key>
 		<integer>0</integer>
 		<key>idleConsumption</key>

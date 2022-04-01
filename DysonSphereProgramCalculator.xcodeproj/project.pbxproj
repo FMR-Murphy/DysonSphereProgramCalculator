@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D970BEB27F6E5750061EF41 /* FormulaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D970BEA27F6E5750061EF41 /* FormulaTableViewCell.m */; };
 		0D9AAFE127EB20FA00A8A16E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AAFE027EB20FA00A8A16E /* AppDelegate.m */; };
 		0D9AAFE427EB20FA00A8A16E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9AAFE327EB20FA00A8A16E /* SceneDelegate.m */; };
 		0D9AAFEC27EB20FC00A8A16E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9AAFEB27EB20FC00A8A16E /* Assets.xcassets */; };
@@ -47,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		0BE8FCB8891C56C8262B0B1C /* Pods-DysonSphereProgramCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DysonSphereProgramCalculator.release.xcconfig"; path = "Target Support Files/Pods-DysonSphereProgramCalculator/Pods-DysonSphereProgramCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		0D970BE927F6E5750061EF41 /* FormulaTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormulaTableViewCell.h; sourceTree = "<group>"; };
+		0D970BEA27F6E5750061EF41 /* FormulaTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormulaTableViewCell.m; sourceTree = "<group>"; };
 		0D9AAFDC27EB20FA00A8A16E /* DysonSphereProgramCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DysonSphereProgramCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9AAFDF27EB20FA00A8A16E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D9AAFE027EB20FA00A8A16E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D970BE827F6E53C0061EF41 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0D970BE927F6E5750061EF41 /* FormulaTableViewCell.h */,
+				0D970BEA27F6E5750061EF41 /* FormulaTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		0D9AAFD327EB20FA00A8A16E = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +199,7 @@
 			children = (
 				0DC9091027F5F50C00624250 /* ResultViewController.h */,
 				0DC9091127F5F50C00624250 /* ResultViewController.m */,
+				0D970BE827F6E53C0061EF41 /* Cell */,
 			);
 			path = ResultList;
 			sourceTree = "<group>";
@@ -491,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D970BEB27F6E5750061EF41 /* FormulaTableViewCell.m in Sources */,
 				0DC9090E27F5F0FD00624250 /* SelectListViewController.m in Sources */,
 				0D9AAFE127EB20FA00A8A16E /* AppDelegate.m in Sources */,
 				0DFCDE1827EC6BF6005F4519 /* ElementModel.m in Sources */,
@@ -597,7 +611,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -649,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

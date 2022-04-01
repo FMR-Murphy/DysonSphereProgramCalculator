@@ -71,12 +71,14 @@ static NSString *const RawOreId = @"RawOre";
 @property (nonatomic) NSArray<IngredientModel *> * products;
 /// 需要时间(秒)
 @property (nonatomic) NSUInteger duration;
+/// 一份产出数量
+@property (nonatomic) float number;
 
 // 本地计算
 /// 产量 / min
 @property (nonatomic, readonly) float yieldForMin;
 /// 目标产物
-@property (nonatomic) ElementId targetProduct;
+@property (nonatomic) ElementModel * targetProduct;
 /// 目标产量 / min
 @property (nonatomic) float targetNumber;
 /// 需要工具数量

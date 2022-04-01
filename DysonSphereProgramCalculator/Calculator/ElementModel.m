@@ -13,8 +13,6 @@
 @end
 
 @interface FormulaModel ()
-/// 产出数量
-@property (nonatomic) float number;
 /// 产量 / min
 @property (nonatomic) float yieldForMin;
 
@@ -33,7 +31,7 @@
 - (float)number {
     if (_number == 0) {
         [self.products enumerateObjectsUsingBlock:^(IngredientModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            if ([obj.elementId isEqualToString:self.targetProduct]) {
+            if ([obj.elementId isEqualToString:self.targetProduct.eleId] || [obj.elementId isEqualToString:RawOreId]) {
                 _number = obj.number;
                 *stop = YES;
             }

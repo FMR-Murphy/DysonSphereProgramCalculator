@@ -457,8 +457,42 @@
 		<string>铁块</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -489,8 +523,42 @@
 		<string>铜块</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -521,8 +589,42 @@
 		<string>高纯硅块</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -530,7 +632,7 @@
 				<key>elementId</key>
 				<string>ore_0005</string>
 				<key>number</key>
-				<string>1</string>
+				<string>2</string>
 			</dict>
 		</array>
 		<key>products</key>
@@ -543,7 +645,7 @@
 			</dict>
 		</array>
 		<key>duration</key>
-		<integer>1</integer>
+		<integer>2</integer>
 	</dict>
 	<key>formula_0013</key>
 	<dict>
@@ -553,8 +655,42 @@
 		<string>钛块</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -585,8 +721,42 @@
 		<string>石材</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -617,8 +787,42 @@
 		<string>高能石墨</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -649,8 +853,42 @@
 		<string>磁铁</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -771,8 +1009,42 @@
 		<string>晶格硅</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -887,8 +1159,42 @@
 		<string>钛合金</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -991,8 +1297,42 @@
 		<string>玻璃</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1023,8 +1363,42 @@
 		<string>金刚石</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1055,8 +1429,42 @@
 		<string>金刚石（高效）</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -1141,8 +1549,42 @@
 		<string>钢材</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -2415,8 +2857,42 @@
 		<string>地基</string>
 		<key>tool</key>
 		<array>
-			<string>building_0400</string>
-			<string>building_0401</string>
+			<dict>
+				<key>eleId</key>
+				<string>building_0400</string>
+				<key>name</key>
+				<string>电弧熔炉</string>
+				<key>iconName</key>
+				<string>icon_ArcSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0100</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>360</integer>
+				<key>idleConsumption</key>
+				<integer>12</integer>
+				<key>efficiency</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>eleId</key>
+				<string>building_0401</string>
+				<key>name</key>
+				<string>位面熔炉</string>
+				<key>iconName</key>
+				<string>icon_PlaneSmelter</string>
+				<key>formulas</key>
+				<array>
+					<string>formula_0101</string>
+				</array>
+				<key>workConsumption</key>
+				<integer>1440</integer>
+				<key>idleConsumption</key>
+				<integer>48</integer>
+				<key>efficiency</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 		<key>ingredients</key>
 		<array>
@@ -7747,7 +8223,7 @@
 		<array>
 			<dict>
 				<key>elementId</key>
-				<string>building_0004</string>
+				<string>building_0402</string>
 				<key>number</key>
 				<string>1</string>
 			</dict>

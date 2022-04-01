@@ -34,26 +34,30 @@
 - (NSArray<FormulaModel *> *)formulaFromElementId:(NSString *)elementId number:(NSInteger)number {
     ElementModel *model = [self.elementDic valueForKey:elementId];
     
-    __block NSMutableArray<FormulaModel *> *mArray = [NSMutableArray array];
+    NSMutableArray<FormulaModel *> *mArray = [NSMutableArray array];
     
     // 获取当前选中的配方
     FormulaModel *formula = [self.formulaDic valueForKey:model.formulas[model.currFormulaIndex]];
-    formula.targetProduct = elementId;
+    formula.targetProduct = model;
     formula.targetNumber = number;
     
     // 添加到数组中
     [mArray addObject:formula];
+    
     // 递归，获取原料的数据
-    for (IngredientModel *ingredient in formula.ingredients) {
+    [formula.ingredients enumerateObjectsUsingBlock:^(IngredientModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         // (formula.toolNumber * obj.number) 原料需要的 产量 / min
-        NSArray *array = [self formulaFromElementId:ingredient.elementId number:(formula.toolNumber * ingredient.number)];
-        [mArray addObjectsFromArray:array];
-    }
-//    [formula.ingredients enumerateObjectsUsingBlock:^(IngredientModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        NSArray *array = [self formulaFromElementId:obj.elementId number:(formula.targetNumber /formula.number * obj.number)];
+        
+        [mArray addObjectsFromArray:[self formulaFromElementId:obj.elementId number:(formula.targetNumber /formula.number * obj.number)]];
+        NSLog(@"%@",[mArray yy_modelToJSONObject]);
+    }];
+//    // 递归，获取原料的数据
+//    for (IngredientModel *ingredient in formula.ingredients) {
 //        // (formula.toolNumber * obj.number) 原料需要的 产量 / min
-//        NSArray *array = [self formulaFromElementId:obj.elementId number:(formula.toolNumber * obj.number)];
+//        NSArray *array = [self formulaFromElementId:ingredient.elementId number:(formula.targetNumber /formula.number * ingredient.number)];
 //        [mArray addObjectsFromArray:array];
-//    }];
+//    }
     return [mArray copy];
 }
 
