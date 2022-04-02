@@ -47,6 +47,8 @@
 				<integer>2</integer>
 			</dict>
 		</array>
+		<key>ingredients</key>
+		<array/>
 		<key>products</key>
 		<array>
 			<dict>
@@ -86,6 +88,8 @@
 				<integer>1</integer>
 			</dict>
 		</array>
+		<key>ingredients</key>
+		<array/>
 		<key>products</key>
 		<array>
 			<dict>

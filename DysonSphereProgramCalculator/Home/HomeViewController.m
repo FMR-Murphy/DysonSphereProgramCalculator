@@ -134,6 +134,7 @@
         _numberTextField = [[UITextField alloc] init];
         _numberTextField.keyboardType = UIKeyboardTypeNumberPad;
         _numberTextField.placeholder = @"输入生产数量/min";
+        _numberTextField.text = @"60";
     }
     return _numberTextField;
 }

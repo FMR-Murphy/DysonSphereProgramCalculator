@@ -56,7 +56,7 @@ static NSString *const RawOreId = @"RawOre";
 
 
 /// 生产公式
-@interface FormulaModel : NSObject <YYModel>
+@interface FormulaModel : NSObject <YYModel, NSCopying>
 
 @property (nonatomic) FormulaId formulaId;
 /// 生产工具

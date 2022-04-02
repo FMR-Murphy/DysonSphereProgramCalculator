@@ -37,7 +37,9 @@
     NSMutableArray<FormulaModel *> *mArray = [NSMutableArray array];
     
     // 获取当前选中的配方
-    FormulaModel *formula = [self.formulaDic valueForKey:model.formulas[model.currFormulaIndex]];
+    //字典中取出的是浅拷贝，出现相同配方时，之前的 targetProduct、targetNubmer 会被覆盖，导致配方错误。所以需要 copy 一下。
+    FormulaModel *formula = [[self.formulaDic valueForKey:model.formulas[model.currFormulaIndex]] copy];
+    // 设置目标产物和数量
     formula.targetProduct = model;
     formula.targetNumber = number;
     
@@ -47,17 +49,9 @@
     // 递归，获取原料的数据
     [formula.ingredients enumerateObjectsUsingBlock:^(IngredientModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         // (formula.toolNumber * obj.number) 原料需要的 产量 / min
-//        NSArray *array = [self formulaFromElementId:obj.elementId number:(formula.targetNumber /formula.number * obj.number)];
-        
-        [mArray addObjectsFromArray:[self formulaFromElementId:obj.elementId number:(formula.targetNumber /formula.number * obj.number)]];
-        NSLog(@"%@",[mArray yy_modelToJSONObject]);
+        NSArray *array = [self formulaFromElementId:obj.elementId number:(formula.targetNumber /formula.number * obj.number)];
+        [mArray addObjectsFromArray:array];
     }];
-//    // 递归，获取原料的数据
-//    for (IngredientModel *ingredient in formula.ingredients) {
-//        // (formula.toolNumber * obj.number) 原料需要的 产量 / min
-//        NSArray *array = [self formulaFromElementId:ingredient.elementId number:(formula.targetNumber /formula.number * ingredient.number)];
-//        [mArray addObjectsFromArray:array];
-//    }
     return [mArray copy];
 }
 

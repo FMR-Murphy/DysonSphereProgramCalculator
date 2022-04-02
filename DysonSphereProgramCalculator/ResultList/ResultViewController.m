@@ -32,7 +32,6 @@
         return value;
     }] takeUntil:self.rac_willDeallocSignal] deliverOnMainThread] subscribeNext:^(id  _Nullable x) {
         @strongify(self);
-        NSLog(@"%@",[x yy_modelToJSONObject]);
         [self.tableView reloadData];
     }];
 }

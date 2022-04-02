@@ -56,6 +56,11 @@
     return _toolNumber;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    FormulaModel *model = [FormulaModel yy_modelWithJSON:[self yy_modelToJSONObject]];
+    return model;
+}
+
 @end
 
 @implementation ElementModel

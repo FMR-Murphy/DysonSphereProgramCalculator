@@ -72,15 +72,6 @@ static NSString *const TableViewCellIdentifier = @"TableViewCellIdentifier";
     if (!_tableView) {
         _tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
         _tableView.rowHeight = 50;
-//        RACDelegateProxy *delegateProxy = [[RACDelegateProxy alloc] initWithProtocol:@protocol(UITableViewDelegate)];
-//        @weakify(self);
-//        [[[delegateProxy rac_signalForSelector:@selector(tableView:didSelectRowAtIndexPath:)] takeUntil:self.rac_willDeallocSignal] subscribeNext:^(RACTuple * _Nullable x) {
-//            @strongify(self);
-//            NSIndexPath *indexPath = x.second;
-//            self.targetElementBlock(self.itemList[indexPath.row]);
-//            [self.navigationController popViewControllerAnimated:YES];
-//        }];
-//        _tableView.delegate = (id<UITableViewDelegate>)delegateProxy;
         _tableView.delegate = self;
         _tableView.dataSource = self;
         [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:TableViewCellIdentifier];
