@@ -350,9 +350,9 @@
 		<key>iconName</key>
 		<string>icon_OpticalGratingCrystal</string>
 		<key>formulas</key>
-		<array/>
-		<key>New item</key>
-		<string>formula_0001</string>
+		<array>
+			<string>formula_0001</string>
+		</array>
 		<key>workConsumption</key>
 		<integer>0</integer>
 		<key>idleConsumption</key>
@@ -369,9 +369,9 @@
 		<key>iconName</key>
 		<string>icon_SpiniformStalagmiteCrystal</string>
 		<key>formulas</key>
-		<array/>
-		<key>New item</key>
-		<string>formula_0001</string>
+		<array>
+			<string>formula_0001</string>
+		</array>
 		<key>workConsumption</key>
 		<integer>0</integer>
 		<key>idleConsumption</key>
@@ -964,7 +964,9 @@
 		<key>iconName</key>
 		<string>icon_CriticalPhoton</string>
 		<key>formulas</key>
-		<array/>
+		<array>
+			<string>formula_0121</string>
+		</array>
 		<key>workConsumption</key>
 		<integer>0</integer>
 		<key>idleConsumption</key>
@@ -1001,7 +1003,9 @@
 		<key>iconName</key>
 		<string>icon_StrangeMatter</string>
 		<key>formulas</key>
-		<array/>
+		<array>
+			<string>formula_0120</string>
+		</array>
 		<key>workConsumption</key>
 		<integer>0</integer>
 		<key>idleConsumption</key>
@@ -1532,7 +1536,9 @@
 		<key>iconName</key>
 		<string>icon_GravityMatrix</string>
 		<key>formulas</key>
-		<array/>
+		<array>
+			<string>formula_0073</string>
+		</array>
 		<key>workConsumption</key>
 		<integer>0</integer>
 		<key>idleConsumption</key>
